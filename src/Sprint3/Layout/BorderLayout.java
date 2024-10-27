@@ -1,4 +1,4 @@
-package Sprint3.Swingtest.Layout;
+package Sprint3.Layout;
 import javax.swing.*;
 
 //Fönstret delas in i fel delar: North, South, East, West, Center

@@ -1,8 +1,7 @@
-package Sprint3.Swingtest.Layout;
-
+package Sprint3.Layout;
 import javax.swing.*;
 
-public class GridLayout extends JFrame {
+public class FlowLayout extends JFrame {
     JPanel panel = new JPanel();
     JLabel labelA = new JLabel("hej");
     JLabel labelB = new JLabel("lill-");
@@ -10,7 +9,7 @@ public class GridLayout extends JFrame {
     JButton buttonA = new JButton("knapp");
     JButton buttonB = new JButton("tryckes på egen risk");
 
-    public GridLayout() {
+    public FlowLayout() {
 
         this.add(panel);
         panel.add(labelA);
@@ -19,8 +18,7 @@ public class GridLayout extends JFrame {
         panel.add(buttonA);
         panel.add(buttonB);
 
-        panel.setLayout(new java.awt.GridLayout(3,2));
-
+        panel.setLayout(new java.awt.FlowLayout());
 
         setSize(500, 100);
         setVisible(true);
@@ -28,6 +26,7 @@ public class GridLayout extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public static void main(String[] args) {
-        GridLayout gl = new GridLayout();
+        FlowLayout frame = new FlowLayout();
     }
 }
+
