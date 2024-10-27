@@ -4,29 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3b9d6ce-e62c-4e5a-8be7-a7dac5ad7455" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b3b9d6ce-e62c-4e5a-8be7-a7dac5ad7455" name="Changes" comment="Commiting ...">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Bensinförbrukning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Change/Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Change/ChangeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Change/MainChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Change/NotesAndCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/RockPaperScissors/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/RockPaperScissors/GamePlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Swingtest/F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Swingtest/FAdapt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Swingtest/MouseAdapt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Swingtest/MouseLis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Swingtest/MouseLisAdapt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/TextEditor/TextEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objektorienterad programmering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Objektorienterad programmering.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/Swingtest/Layout/BorderLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/Layout/BorderLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/Swingtest/Layout/FlowLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/Layout/FlowLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/Swingtest/Layout/GridLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/Layout/GridLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/Swingtest/Manet/Jelly_cloud_horizontal_900.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/Manet/Jelly_cloud_horizontal_900.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/Swingtest/Manet/Sea-Nettle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/Manet/Sea-Nettle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/Swingtest/Manet/ea7e6be1ec56573b3919263002765285.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/Manet/ea7e6be1ec56573b3919263002765285.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/Swingtest/Pics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/Pics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YlvaKodar/Objektorienterad_programmering.git",
-    "accountId": "23a26dc0-66d9-4cbf-baeb-20bf85804442"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YlvaKodar&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YlvaKodar/Objektorienterad_programmering.git&quot;,
+    &quot;accountId&quot;: &quot;23a26dc0-66d9-4cbf-baeb-20bf85804442&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2nq9RrQZHPTQ3B4mIgHkTsAeQEe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,9 +67,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Bensinförbrukning.executor": "Run",
+    "Application.F.executor": "Run",
+    "Application.GamePlay.executor": "Run",
+    "Application.MainChange.executor": "Run",
+    "Application.MouseLis.executor": "Run",
+    "Application.MouseLisAdapt.executor": "Run",
+    "Application.TextEditor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ylvaf/Ylva kodar/Objektorienterad programmering/src/Sprint3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +88,87 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ylvaf\Ylva kodar\Objektorienterad programmering\src\Sprint3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TextEditor">
+    <configuration name="F" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sprint3.Swingtest.F" />
+      <module name="Objektorienterad programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sprint3.Swingtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GamePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sprint3.RockPaperScissors.GamePlay" />
+      <module name="Objektorienterad programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sprint3.RockPaperScissors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sprint3.Change.MainChange" />
+      <module name="Objektorienterad programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sprint3.Change.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MouseLis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sprint3.Swingtest.MouseLis" />
+      <module name="Objektorienterad programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sprint3.Swingtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sprint3.TextEditor.TextEditor" />
+      <module name="Objektorienterad programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sprint3.TextEditor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TextEditor" />
+        <item itemvalue="Application.F" />
+        <item itemvalue="Application.MouseLis" />
+        <item itemvalue="Application.GamePlay" />
+        <item itemvalue="Application.MainChange" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,11 +185,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729689734686</updated>
-      <workItem from="1729689736373" duration="713000" />
+      <workItem from="1729689736373" duration="7586000" />
+      <workItem from="1729858185783" duration="12783000" />
+      <workItem from="1729934632040" duration="23526000" />
+      <workItem from="1730022980748" duration="9439000" />
+      <workItem from="1730040716692" duration="4242000" />
     </task>
+    <task id="LOCAL−00001" summary="Commiting ...">
+      <option name="closed" value="true" />
+      <created>1729690710774</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1729690710774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commiting ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting ..." />
   </component>
 </project>
