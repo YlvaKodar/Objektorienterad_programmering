@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 
 public class GamePlay extends JFrame implements ActionListener {
     GameLogic gameLogic;
-    //JPanel bas = new JPanel();
     JPanel greetingPanel = new JPanel();
     JPanel roundPanel = new JPanel();
     JPanel scorePanel = new JPanel();
@@ -36,6 +35,7 @@ public class GamePlay extends JFrame implements ActionListener {
     JLabel currentScore = new JLabel();
     JLabel results = new JLabel();
 
+    //Skapar spelbrädet plus skapar instans av GameLogic (gameLogic)
     public GamePlay() {
         gameLogic = new GameLogic();
 
@@ -81,14 +81,14 @@ public class GamePlay extends JFrame implements ActionListener {
         halPanel.add(scoreHal);
         gamePanel.add(halPanel, BorderLayout.EAST);
 
-
-
         scorePanel.setLayout(new GridLayout(2, 1));
         scorePanel.add(reaction);
         scorePanel.add(currentScore);
         add(scorePanel, BorderLayout.SOUTH);
     }
 
+    //Action perform hämtar ibland värden från GameLogic med hjälp av instansen gameLogic
+    //samt anropar metoden Round för att avgöra vem som vann
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == yes) {
@@ -133,6 +133,8 @@ public class GamePlay extends JFrame implements ActionListener {
             setTheStage(result);
         }
     }
+    //setTheStage anropas i slutet av actionPerformed.
+    //Den använder sig av variabler och metoder från gameLogic för att visa rätt data på spelbrädet.
     public void setTheStage(int result){
         rockDave.removeActionListener(this); scissorsDave.removeActionListener(this); paperDave.removeActionListener(this);
 

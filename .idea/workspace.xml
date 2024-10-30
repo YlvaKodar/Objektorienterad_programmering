@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3b9d6ce-e62c-4e5a-8be7-a7dac5ad7455" name="Changes" comment="Commiting ..." />
+    <list default="true" id="b3b9d6ce-e62c-4e5a-8be7-a7dac5ad7455" name="Changes" comment="Commiting ...">
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Threads/Medicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Threads/MedicineMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sprint3/Threads/PrintMeds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/RockPaperScissors/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/RockPaperScissors/GamePlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint3/TextEditor/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint3/TextEditor/TextEditor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,42 +49,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Bensinförbrukning.executor": "Run",
-    "Application.F.executor": "Run",
-    "Application.GamePlay.executor": "Run",
-    "Application.MainChange.executor": "Run",
-    "Application.MouseLis.executor": "Run",
-    "Application.MouseLisAdapt.executor": "Run",
-    "Application.TextEditor.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ylvaf/Ylva kodar/Objektorienterad programmering/src/Sprint3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Bensinförbrukning.executor&quot;: &quot;Run&quot;,
+    &quot;Application.F.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GamePlay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainChange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MedicineMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MouseLis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MouseLisAdapt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextEditor.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ylvaf/Ylva kodar/Objektorienterad programmering/src/Sprint3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ylvaf\Ylva kodar\Objektorienterad programmering\src\Sprint3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextEditor">
+  <component name="RunManager">
     <configuration name="F" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sprint3.Swingtest.F" />
       <module name="Objektorienterad programmering" />
@@ -104,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sprint3.Change.MainChange" />
+    <configuration name="MedicineMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.MedicineMain" />
       <module name="Objektorienterad programmering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sprint3.Change.*" />
+          <option name="PATTERN" value="Threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MedicineMain" />
         <item itemvalue="Application.TextEditor" />
         <item itemvalue="Application.F" />
         <item itemvalue="Application.MouseLis" />
         <item itemvalue="Application.GamePlay" />
-        <item itemvalue="Application.MainChange" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +181,12 @@
       <workItem from="1729858185783" duration="12783000" />
       <workItem from="1729934632040" duration="23526000" />
       <workItem from="1730022980748" duration="9439000" />
-      <workItem from="1730040716692" duration="4482000" />
+      <workItem from="1730040716692" duration="6663000" />
+      <workItem from="1730065835393" duration="11000" />
+      <workItem from="1730104148752" duration="12579000" />
+      <workItem from="1730196438187" duration="92000" />
+      <workItem from="1730229651117" duration="3060000" />
+      <workItem from="1730283380835" duration="1517000" />
     </task>
     <task id="LOCAL−00001" summary="Commiting ...">
       <option name="closed" value="true" />
@@ -196,11 +209,29 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1730045024485</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Commiting ...">
+      <option name="closed" value="true" />
+      <created>1730045279757</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1730045279757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commiting ..." />
